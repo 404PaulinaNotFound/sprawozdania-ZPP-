@@ -1,8 +1,8 @@
-# Etap 1 – Inicjalizacja projektu i konfiguracja środowiska
+# Etap 2 – Inicjalizacja projektu i konfiguracja środowiska
 
 ## Cel etapu
 
-Pierwszy etap prac obejmował założenie struktury projektu, konfigurację środowiska uruchomieniowego (Docker) oraz przygotowanie plików konfiguracyjnych. Na tym etapie aplikacja nie posiada jeszcze żadnej logiki — tworzymy szkielet, na którym będą budowane kolejne moduły.
+Drugi etap prac obejmował założenie struktury projektu, konfigurację środowiska uruchomieniowego (Docker) oraz przygotowanie plików konfiguracyjnych. Na tym etapie aplikacja nie posiada jeszcze żadnej logiki — tworzymy szkielet, na którym będą budowane kolejne moduły.
 
 ## Zakres prac
 
