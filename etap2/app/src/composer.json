@@ -1,0 +1,14 @@
+{
+    "name": "pbf/system",
+    "description": "Play-by-Forum System ZPP2",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "PBF\\": "src/"
+        }
+    }
+}
