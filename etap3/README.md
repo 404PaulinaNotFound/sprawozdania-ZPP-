@@ -48,7 +48,7 @@ Każdy poziom może mieć ograniczenia dostępu (`access_role`). Wyszukiwanie pe
 ## Dane początkowe
 
 Skrypt tworzy:
-- 3 użytkowników testowych: `admin`, `mg`, `testplayer` (hasło: `password`)
+- 3 użytkowników testowych: `admin`, `mg`, `testplayer` (hasło: `$$$`)
 - 4 kategorie forum (Ogólne, Fabuła, Panel MG, Administracja)
 - 5 forów
 - 4 odznaki/osiągnięcia
