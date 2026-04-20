@@ -4,7 +4,7 @@
 
 Czwarty etap obejmował implementację głównego routera aplikacji (`index.php`) oraz pełnego modułu forum. Forum jest sercem systemu PBF — to tu gracze prowadzą rozgrywkę tekstową.
 
-## Zakres prac
+## Zakres pracy
 
 - `index.php` – główny router, layout HTML, menu nawigacyjne, obsługa rejestracji/logowania
 - `modules/forum_complete.php` – kompletny system forum
