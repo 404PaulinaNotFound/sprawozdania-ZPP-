@@ -55,22 +55,6 @@ Kompletny motyw graficzny inspirowany światem Tolkiena:
 | Modalne okna | Elfickie pergaminy ze złotymi ramkami |
 | Scrollbar | Brązowy kciuk, złoty przy hover |
 
-### Audyt Bezpieczeństwa (OWASP Top 10)
-
-| Kategoria OWASP | Status |
-|-----------------|--------|
-| A01 Broken Access Control | ✅ Sprawdzanie ról w każdym module |
-| A02 Cryptographic Failures | ✅ bcrypt dla haseł |
-| A03 Injection | ✅ Prepared statements |
-| A04 Insecure Design | ⚠️ Rate limiting planowany |
-| A05 Security Misconfiguration | ✅ Error handling, direct access blocked |
-| A06 Vulnerable Components | ✅ Aktualne biblioteki |
-| A07 Auth Failures | ✅ Session management, approved check |
-| A08 Data Integrity | ✅ CSRF na wszystkich formularzach |
-| A09 Logging Failures | ✅ activity_logs + error_log |
-| A10 SSRF | ✅ Brak zewnętrznych requestów |
-
-**Wynik końcowy: 8.96/10 – Grade B+**
 
 ## Pełna checklista projektu (po Etapie 7)
 
@@ -100,6 +84,5 @@ docker compose up -d --build
 
 - **Technologie:** PHP 8.2, MySQL 8.0, Bootstrap 5.3, PHPMailer 6.9, Docker
 - **Architektura:** Modular MVC-like, 17 modułów PHP
-- **Bezpieczeństwo:** OWASP Top 10 compliance 88.9%, ocena 8.96/10
 - **Wersja:** 1.0.0 (production ready)
-- **Data:** 2026-03-31
+
